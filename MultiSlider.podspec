@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MultiSlider"
-  s.version      = "1.11.2"
+  s.version      = "1.11.3"
   s.summary      = "UISlider clone with multiple thumbs and values, optional snap intervals, optional value labels."
 
   s.homepage     = "https://github.com/yonat/MultiSlider"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/yonat/MultiSlider.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/lays90/MultiSlider.git", :tag => s.version }
   s.source_files  = "Sources/*.swift"
 
   s.dependency 'SweeterSwift'

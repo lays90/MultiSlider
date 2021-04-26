@@ -163,7 +163,10 @@ extension MultiSlider {
 
     func updateThumbViewShadowVisibility() {
         thumbViews.forEach {
-            $0.layer.shadowOpacity = showsThumbImageShadow ? 0.25 : 0
+            $0.layer.shadowColor = UIColor(white: 0.0, alpha: 1.0).cgColor
+            $0.layer.shadowOffset = .zero
+            $0.layer.shadowRadius = 4.0
+            $0.layer.shadowOpacity = showsThumbImageShadow ? 0.2 : 0
         }
     }
 
